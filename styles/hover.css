@@ -28,7 +28,7 @@ h4:hover{
     white-space: nowrap;
     z-index: 10;
     
-    scale: 1.1;
+    scale: 1;
 }
 .status-dot:hover {
     scale: 1.4;

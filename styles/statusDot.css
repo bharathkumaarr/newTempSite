@@ -33,8 +33,8 @@ body.dark .status-dot {
     position: absolute;
     top: -16.5%;
     left: -16.7%;
-    width: 18px; /* 4px larger than dot */
-    height: 18px;
+    width: 17px; /* 4px larger than dot */
+    height: 17px;
     border: 1px solid #28a745; /* Match dot color */
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0);
