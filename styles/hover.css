@@ -1,0 +1,16 @@
+
+h1:hover {
+    color: rgb(104, 104, 104);
+    scale: 0.98;
+}
+
+a:hover {
+    color:rgb(86, 124, 236);
+    scale: 0.96;
+}
+
+
+h4:hover{
+    color: rgb(104, 104, 104);
+    scale: 0.96;
+}
