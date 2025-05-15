@@ -1,7 +1,7 @@
-this is just a temporary portfolio site made in no time. 
+This is just a temporary portfolio site made in no time. 
 
-new portfolio site coming up.  
-some links:  
+New portfolio site coming up.  
+Some links:  
 - github: https://github.com/bharathkumaarr
 - twitter/x: https://x.com/bharathkumxr
 - linkedin: https://linkedin.com/in/bkrm
