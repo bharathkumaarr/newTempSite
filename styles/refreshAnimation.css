@@ -1,5 +1,6 @@
 .center.loaded {
-    animation: insideToOut 0.5s ease-out forwards; 
+    animation: insideToOut 0.5s ease-out forwards;
+    transform: scale(1);
 }
 .links a, .links h4 {
     opacity: 0;

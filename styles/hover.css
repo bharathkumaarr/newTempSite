@@ -14,3 +14,24 @@ h4:hover{
     color: rgb(104, 104, 104);
     scale: 0.96;
 }
+
+.status-dot:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -40px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    z-index: 10;
+    
+    scale: 1.1;
+}
+.status-dot:hover {
+    scale: 1.4;
+}
+
+
