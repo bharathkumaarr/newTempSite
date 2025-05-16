@@ -21,8 +21,8 @@ body.dark {
 
 
 @font-face {
-    font-family: 'PPMondwest-Regular';
-    src: url('/fonts/PPMondwest-Regular.otf') format('opentype');
+    font-family: 'Doto-VariableFont_ROND,wght';
+    src: url('/fonts/Doto-VariableFont_ROND,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
