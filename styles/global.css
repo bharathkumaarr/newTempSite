@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Doto";
+    font-family: "Doto-VariableFont_ROND,wght";
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
