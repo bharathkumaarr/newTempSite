@@ -2,10 +2,10 @@
     position: absolute;
     bottom: 0px;
     right: 10px;
-    width: 16px;
+    width: 18px;
     height: 16px;
     background: transparent;
-    border: 2px solid rgb(117, 127, 149); 
+    border: 2px solid  rgb(104, 104, 104); 
     /* transform: rotate(45deg);  */
     opacity: 0;
     transform-origin: center;
@@ -19,12 +19,12 @@
     content: '';
     position: absolute;
     top: 9px;
-    left: 6px;
+    left: 7px;
     width: 10px;
     height: 10px;
     background: transparent;
-    border-top: 2px solid rgb(117, 127, 149);
-    border-left: 2px solid rgb(117, 127, 149);
+    border-top: 2px solid  rgb(104, 104, 104);
+    border-left: 2px solid  rgb(104, 104, 104);
     transform: rotate(225deg);
     transform-origin: top left;
 }

@@ -10,7 +10,7 @@
     font-size: 1.25rem;
     font-weight: bolder;
     
-    border: dashed 2px rgb(117, 127, 149);
+    border: dashed 2px  rgb(104, 104, 104);
     padding: 3% 4% 4% 3%;
     border-radius: 20px;
     transition: border-color 0.3s ease-in-out;
@@ -44,6 +44,8 @@ h4 {
     cursor: pointer;
     transition: 0.3s ease, transform 0.3s ease;
     margin: 0.625rem 0;
+    
+    left: 10px;
 }
 .links {
     /* display: flex;
