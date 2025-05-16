@@ -1,0 +1,40 @@
+.mail-icon {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 2px solid rgb(117, 127, 149); 
+    /* transform: rotate(45deg);  */
+    opacity: 0;
+    transform-origin: center;
+    /* transform: scale(0) rotate(45deg); */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+.mail-icon::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-top: 2px solid rgb(117, 127, 149);
+    border-left: 2px solid rgb(117, 127, 149);
+    transform: rotate(225deg);
+    transform-origin: top left;
+}
+
+.center.loaded .mail-icon {
+    opacity: 1;
+    animation: insideToOut 0.5s ease-out forwards, blink 1.5s ease-in-out infinite;
+    transform: scale(1) rotate(45deg);
+    animation-delay: 0s, 0.5s;
+}
+.mail-icon:hover {
+    scale: 1.4;
+}

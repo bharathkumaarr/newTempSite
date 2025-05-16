@@ -11,7 +11,7 @@
     font-weight: bolder;
     
     border: dashed 2px rgb(117, 127, 149);
-    padding: 3% 3% 3% 3%;
+    padding: 3% 4% 4% 3%;
     border-radius: 20px;
     transition: border-color 0.3s ease-in-out;
     text-align: center;
@@ -81,6 +81,18 @@ h4 {
         top: -25px;
         right: -8px;
     }
+    .mail-icon {
+        bottom: 8px;
+        right: 8px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .mail-icon::before {
+        left: 1.5px;
+        width: 7px;
+        height: 7px;
+    }
 }
 @media (max-width: 480px) {
     .center {
@@ -112,6 +124,18 @@ h4 {
         font-size: 0.65rem;
         top: -20px;
         right: -6px;
+    }
+    .mail-icon {
+        bottom: 6px;
+        right: 6px;
+        width: 8px;
+        height: 8px;
+    }
+
+    .mail-icon::before {
+        left: 1px;
+        width: 6px;
+        height: 6px;
     }
 
     .main {
