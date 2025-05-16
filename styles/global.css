@@ -19,3 +19,11 @@ body.dark {
     color: rgb(175, 175, 175);
 }
 
+
+@font-face {
+    font-family: 'PPMondwest-Regular';
+    src: url('/fonts/PPMondwest-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
