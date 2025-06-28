@@ -1,5 +1,5 @@
 
-h1:hover {
+h1:hover, .projects-title {
     color: rgb(104, 104, 104);
     scale: 0.98;
 }
@@ -33,5 +33,6 @@ h4:hover{
 .status-dot:hover {
     scale: 1.4;
 }
+
 
 

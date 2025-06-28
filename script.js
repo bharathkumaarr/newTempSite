@@ -31,5 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Trigger animation by adding .loaded class to .center
     const center = document.querySelector('.center');
-    center.classList.add('loaded');
+    if (center) {
+        center.classList.add('loaded');
+    }
 });
