@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         'Notesy': 'https://usenotesy.vercel.app/',
         'CodeSync-Live': 'https://github.com/bharathkumaarr/CodeSync-Live',
         'chronoLOCK': 'https://github.com/bharathkumaarr/chronoLOCK',
-        'Aura': 'https://github.com/bharathkumaarr/Aura'
+        'Aura': 'https://github.com/bharathkumaarr/Aura',
+        'BrieflyAI': 'https://usebrieflyai.vercel.app/',
+        'LinkedIn-Search-Tool': 'https://linkedin-search-tool.vercel.app/'
     };
 
     projectItems.forEach(item => {
