@@ -12,7 +12,8 @@ body {
 }
 
 body.light {
-    background-color: rgb(234, 238, 241);
+    /* background-color: rgb(234, 238, 241); */
+    background-color: rgb(216, 219, 221);
 }
 body.dark {
     background-color: #111;

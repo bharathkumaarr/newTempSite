@@ -26,7 +26,8 @@ function toggleTheme() {
 
 document.addEventListener('DOMContentLoaded', () => {
     // Load saved theme from localStorage or default to dark
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    // const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = 'light';
     document.body.classList.add(savedTheme);
 
     // Trigger animation by adding .loaded class to .center
